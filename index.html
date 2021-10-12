@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proyecto CSS</title>
+    <!-- Google fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
+
+    <!-- CSS Desde SASS -->
+    <link type="text/css" rel="stylesheet" href="assets/sass/styles.css">
+    <!-- JS -->
+    <script defer src="assets/js/main.js"></script>
+    <script defer src="assets/js/fixed.js"></script>
+
+  </head>
+
+  <body>
+    <header>
+      <img class="circle" src="assets/img/logos/large.png" alt="large logo" />
+      <h1>Jorge Andrés Reyes Torres</h1>
+      <hr />
+      <h2>Software Engineer</h2>
+      <video autoplay muted loop>
+        <source src="assets/video/hero.mp4" />
+      </video>
+    </header>
+    <!-- Navbar -->
+    <nav id="navbar">
+        <div>
+          <a href="/">
+            <img class="circle" src="assets/img/logos/small.png" alt="small logo" />
+            <span>Jorge Andrés Reyes Torres <small>Software Engineer</small></span>
+          </a>
+          <button id="hamburger">&#x2630</button>
+        </div>
+        <ul>
+            <li><a href="#portfolio">Portafolio</a></li>
+            <li><a href="#skillset">Skillset</a></li>
+            <li><a href="#experience">Experiencia</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </nav>
+    <main>
+        <!-- Portafolio -->
+    <section id="portfolio">
+        <h3>Portafolio</h3>
+        <hr>
+        <div>
+            <button>
+                <img src="assets/img/portfolio/1.jpg" alt="Feel Management System">
+                <h4>Feel Management System</h4>
+            </button>
+            <button>
+                <img src="assets/img/portfolio/2.jpg" alt="Nintendo Disney Art Academy">
+                <h4>Nintendo Disney Art Academy</h4>
+            </button>
+            <button>
+                <img src="assets/img/portfolio/3.jpg" alt="Fridge Binge Game">
+                <h4>Fridge Binge Game</h4>
+            </button>
+        </div>
+    </section>
+    <!-- Skillset -->
+    <section id="skillset" class="even">
+        <h3>Skillset</h3>
+        <hr>
+        <div>
+            <div>
+                <img src="assets/img/skillset/html.svg" alt="html">
+                <span class="tooltip">HTML</span>
+            </div>
+            <div>
+                <img src="assets/img/skillset/CSS3_logo_and_wordmark.svg" alt="css">
+                <span class="tooltip">CSS</span>
+            </div>
+            <div>
+                <img src="assets/img/skillset/Unofficial_JavaScript_logo_2.svg" alt="javascript">
+                <span class="tooltip">JavaScript</span>
+            </div>
+            <div>
+                <img src="assets/img/skillset/Git-Icon-1788C.svg" alt="git">
+                <span class="tooltip">GIT</span>
+            </div>
+            <div>
+                <img src="assets/img/skillset/Npm-logo.svg" alt="npm">
+                <span class="tooltip">npm</span>
+            </div>
+            <div>
+                <img src="assets/img/skillset/Bash_Logo_Colored.svg" alt="bach">
+                <span class="tooltip">bash</span>
+            </div>
+            <div>
+                <img src="assets/img/skillset/nodejs-new-pantone-black.svg" alt="node js">
+                <span class="tooltip">Node.js</span>
+            </div>
+            <div>
+                <img src="assets/img/skillset/react.svg" alt="react">
+                <span class="tooltip">React</span>
+            </div>    
+        </div>
+    </section>
+    <!-- Experience -->
+    <section id="experience">
+        <h3>Experience</h3>
+        <hr>
+        <div>
+            <a>
+                <img src="assets/img/experience/1.svg" alt="uno">
+                <h4>Experiencia 1</h4>
+            </a>
+            <a>
+                <img src="assets/img/experience/2.svg" alt="dos">
+                <h4>Experiencia 2</h4>
+            </a>
+            <a>
+                <img src="assets/img/experience/3.svg" alt="tres">
+                <h4>Experiencia 3</h4>
+            </a>
+            <a>
+                <img src="assets/img/experience/4.svg" alt="cuatro">
+                <h4>Experiencia 4</h4>
+            </a>
+        </div>
+    </section>
+    <!-- Contact -->
+    <section id="contact" class="even">
+        <h3>Contact</h3>
+        <hr>
+        <form action="">
+            <label>
+                Your email:
+                <input type="email" name="_replyto">
+            </label>
+            <label>
+                Your message:
+                <textarea name="message"></textarea>
+            </label>
+            <button type="submit">Send</button>
+        </form>
+        <nav id="social-media">
+            <a>
+                <img id="linkedin" src="assets/img/social/linkedin.png" alt="linkedin">
+            </a>
+            <a>
+                <img id="github" src="assets/img/social/github.png" alt="github">
+            </a>
+            <a>
+                <img id="youtube" src="assets/img/social/youtube.png" alt="youtube">
+            </a>
+        </nav>
+    </section>
+</main>
+<footer>
+    <small>Developed and designed by Jorge Reyes. ©2021 All rights reserved.</small>
+</footer>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+@import "main";
+
+html {
+  background: linear-gradient($white, $white2);
+}
+
+section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+
+  hr {
+    margin-bottom: 5rem;
+  }
+}
+
+section.even hr {
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    $white,
+    rgba(0, 0, 0, 0)
+  );
+}
+
+#navbar,
+section.even {
+  background: linear-gradient($primary, $primary-dark);
+}
+
+hr {
+  height: 0.1rem;
+  max-width: 100%;
+  border: 0;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    $primary,
+    rgba(0, 0, 0, 0)
+  );
+}
+
+footer {
+  background: linear-gradient($black, $black2);
+  padding: 2rem 0;
+}
